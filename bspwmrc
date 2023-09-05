@@ -24,8 +24,8 @@ bspc config single_monocle true
 bspc config gapless_monocle      true
 
 bspc config normal_border_color "#b6a5a7"
-bspc config active_border_color "#714abc"
-bspc config focused_border_color "#714abc"
+bspc config active_border_color "#c6a0f6"
+bspc config focused_border_color "#c6a0f6"
 
 bspc rule -a chromium desktop='^1'
 bspc rule -a TelegramDesktop desktop='^2'
