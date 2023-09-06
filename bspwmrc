@@ -1,5 +1,6 @@
 #! /bin/sh
 lxpolkit &
+xrdb -merge ~/.Xresources
 picom &
 nitrogen --restore
 xsetroot -cursor_name left_ptr &
